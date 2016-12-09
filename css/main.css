@@ -7,3 +7,13 @@ html {
 .text-center {
 	text-align: center;
 }
+
+.text-center h1 {
+	color:  #e6d1f1;
+}
+
+.text-center input[type="text"]{
+	padding: 10px 20px;
+    border-radius: 20px;
+}
+
