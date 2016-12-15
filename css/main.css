@@ -10,6 +10,14 @@ body {
 	margin-top: -21px;
 }
 
+form {
+	margin-bottom: 30px;
+}
+
+a {
+	color:  #e6d1f1;
+}
+
 .text-center {
 	text-align: center;
 	transition: 0.5s;
