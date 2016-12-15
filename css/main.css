@@ -27,6 +27,7 @@ html, body {
     position: absolute;
     transform: rotate(-45deg);
     transition: 0.5s;
+    border-radius: 50%;
 }
 
 .hilt-back {
@@ -43,6 +44,7 @@ html, body {
     width: 5px;
     position: absolute;
     transform: rotate(45deg);
+    border-radius: 50%;
 }
 
 .hilt.on {
