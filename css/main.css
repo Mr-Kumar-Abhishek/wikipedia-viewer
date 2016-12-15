@@ -65,6 +65,7 @@ html, body {
     width: 0px;
     transition: 0.5s;
     cursor: pointer;
+    outline: none;
 }
 
 
