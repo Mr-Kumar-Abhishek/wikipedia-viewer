@@ -16,7 +16,17 @@ html, body {
 	color:  #e6d1f1;
 }
 
-
+.hilt {
+    height: 25px;
+    margin-top: 33px;
+    margin-left: -2px;
+    border-color: rgba(216, 199, 224, 0.75);
+    border-width: 6px;
+    background: rgba(216, 199, 224, 0.75);
+    width: 5px;
+    position: absolute;
+    transform: rotate(-45deg);
+}
 
 .search-me{
     padding: 10px 20px;
