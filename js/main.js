@@ -39,4 +39,19 @@ function search(title){
 	console.log(action);
 	console.log(title);
 	
+	
+	if ( title == "" ) {
+		title = "wikipedia";
+	}
+	
+	var url = "https://" + lang + ".wikipedia.org/w/api.php?format=" + format + "&action=" + action + "&search=" + title + "&limit=" + limit + "&rvprop=" + rvprop + "&callback=?";
+	
+	console.log(url);
+	
+	$.getJSON(url).done(function (data) {
+        console.log(data);
+    }).fail(function () {
+        alert("Something Broke !");
+    });
 }
+
