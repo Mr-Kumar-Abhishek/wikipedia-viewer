@@ -6,10 +6,14 @@ html, body {
     margin: 0px;
 }
 
+body {
+	margin-top: -21px;
+}
+
 .text-center {
 	text-align: center;
-	margin-top: 20vw;
 	transition: 0.5s;
+	transform: translateY(20vw);
 }
 
 .text-center h1 {
