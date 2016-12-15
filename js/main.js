@@ -19,6 +19,11 @@ $("#hilter-front").click(function(){
 
 $("#search-me").keypress(function (key) {
         if (key.which == 13) {
-            console.log($(this).val());
+            search($(this).val());
         }
 });
+
+
+function search(title){
+	console.log(title);
+}
