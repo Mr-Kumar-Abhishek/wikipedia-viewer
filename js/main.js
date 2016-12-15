@@ -9,12 +9,14 @@ $("#hilter-back").click(function(){
 	$("#hilter-front").removeClass("on");
 	$("#hilter-back").removeClass("on");
 	$("#search-me").removeClass("on");
+	$("#search-me").val("");
 });
 
 $("#hilter-front").click(function(){
 	$("#hilter-front").removeClass("on");
 	$("#hilter-back").removeClass("on");
 	$("#search-me").removeClass("on");
+	$("#search-me").val("");
 });
 
 $("#search-me").keypress(function (key) {
