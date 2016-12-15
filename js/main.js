@@ -23,7 +23,20 @@ $("#search-me").keypress(function (key) {
         }
 });
 
-
 function search(title){
+	var lang = "en";
+	var limit = "10";
+	var prop = "revisions";
+	var rvprop = "content";
+	var format = "json";
+	var action = "opensearch";
+	
+	console.log(lang);
+	console.log(limit);
+	console.log(prop);
+	console.log(rvprop);
+	console.log(format);
+	console.log(action);
 	console.log(title);
+	
 }
