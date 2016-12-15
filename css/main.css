@@ -37,7 +37,8 @@ html, body {
     background: rgba(126, 104, 128, 0.82);
     color: #fff;
     width: 0px;
-    transition: 0.5s; 
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 
@@ -50,4 +51,5 @@ html, body {
     background: rgba(126, 104, 128, 0.82);
     width: 200px;
     color: #fff;
+    cursor: text;
 }
