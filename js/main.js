@@ -16,3 +16,9 @@ $("#hilter-front").click(function(){
 	$("#hilter-back").removeClass("on");
 	$("#search-me").removeClass("on");
 });
+
+$("#search-me").keypress(function (key) {
+        if (key.which == 13) {
+            console.log($(this).val());
+        }
+});
