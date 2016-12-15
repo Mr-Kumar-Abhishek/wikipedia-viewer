@@ -12,13 +12,28 @@ html {
 	color:  #e6d1f1;
 }
 
-.text-center input[type="text"]{
+
+
+.search-me{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border-color: rgba(216, 199, 224, 0.75);
+    border-width: 6px;
+    border-style: solid;
+    background: rgba(126, 104, 128, 0.82);
+    color: #fff;
+    width: 0px;
+   transition: 0.5s; 
+}
+
+
+.search-me:focus {
 	padding: 10px 20px;
     border-radius: 20px;
     border-color: rgba(216, 199, 224, 0.75);
     border-width: 6px;
     border-style: solid;
     background: rgba(126, 104, 128, 0.82);
+    width: 200px;
     color: #fff;
 }
-
