@@ -45,11 +45,13 @@ html, body {
     position: absolute;
     transform: rotate(45deg);
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .hilt.on {
 	margin-top: 13px;
    margin-left: -24px;
+   cursor: pointer;
 }
 
 .search-me{
@@ -66,7 +68,7 @@ html, body {
 }
 
 
-.search-me:focus {
+.search-me.on {
 	padding: 10px 20px;
     border-radius: 20px;
     border-color: rgba(216, 199, 224, 0.75);
