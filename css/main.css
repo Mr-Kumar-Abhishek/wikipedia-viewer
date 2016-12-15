@@ -9,6 +9,7 @@ html, body {
 .text-center {
 	text-align: center;
 	margin-top: 20vw;
+	transition: 0.5s;
 }
 
 .text-center h1 {
@@ -26,7 +27,7 @@ html, body {
     background: rgba(126, 104, 128, 0.82);
     color: #fff;
     width: 0px;
-   transition: 0.5s; 
+    transition: 0.5s; 
 }
 
 
