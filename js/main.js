@@ -51,9 +51,14 @@ function search(title){
 	console.log(url);
 	
 	$.getJSON(url).done(function (data) {
-        console.log(data);
+        result_display(data);
     }).fail(function () {
         alert("Something Broke !");
     });
+}
+
+
+function result_display(wiki_data){
+	console.log(wiki_data);
 }
 
