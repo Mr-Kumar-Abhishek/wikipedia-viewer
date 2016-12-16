@@ -24,6 +24,10 @@ a {
 	transform: translateY(20vw);
 }
 
+.text-center.searched {
+	transform: translateY(2vw);
+}
+
 .text-center h1 {
 	color:  #e6d1f1;
 }
