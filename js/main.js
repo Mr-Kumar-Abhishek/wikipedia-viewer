@@ -11,6 +11,7 @@ $("#hilter-back").click(function(){
 	$("#search-me").removeClass("on");
 	$("#search-me").val("");
 	$("div.text-center#text-center").removeClass("searched");
+	$("h2#searched-for").text("");
 });
 
 $("#hilter-front").click(function(){
@@ -19,6 +20,7 @@ $("#hilter-front").click(function(){
 	$("#search-me").removeClass("on");
 	$("#search-me").val("");
 	$("div.text-center#text-center").removeClass("searched");
+	$("h2#searched-for").text("");
 });
 
 $("#search-me").keypress(function (key) {
@@ -63,5 +65,7 @@ function search(title){
 function result_display(wiki_data){
 	console.log(wiki_data);
 	$("div.text-center#text-center").addClass("searched");
+	$("h2#searched-for").text("Searched for : '" + wiki_data[0] + "'");
+	$("div.search-results").show();
 }
 

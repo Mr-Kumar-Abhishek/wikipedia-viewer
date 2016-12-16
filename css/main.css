@@ -28,7 +28,7 @@ a {
 	transform: translateY(2vw);
 }
 
-.text-center h1 {
+.text-center h1 , .text-center h2{
 	color:  #e6d1f1;
 }
 
@@ -95,4 +95,13 @@ a {
     width: 200px;
     color: #fff;
     cursor: text;
+}
+
+.search-results{
+	display: none;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: auto;
 }
