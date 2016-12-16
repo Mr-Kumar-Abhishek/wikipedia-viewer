@@ -12,6 +12,7 @@ $("#hilter-back").click(function(){
 	$("#search-me").val("");
 	$("div.text-center#text-center").removeClass("searched");
 	$("h2#searched-for").text("");
+	$("div#show-results").html("");
 });
 
 $("#hilter-front").click(function(){
@@ -21,6 +22,7 @@ $("#hilter-front").click(function(){
 	$("#search-me").val("");
 	$("div.text-center#text-center").removeClass("searched");
 	$("h2#searched-for").text("");
+	$("div#show-results").html("");
 });
 
 $("#search-me").keypress(function (key) {
@@ -66,6 +68,9 @@ function result_display(wiki_data){
 	console.log(wiki_data);
 	$("div.text-center#text-center").addClass("searched");
 	$("h2#searched-for").text("Searched for : '" + wiki_data[0] + "'");
+	for(var i = 0; i < wiki_data[1].length; i++){
+		$("div#show-results").append("<article><h1><a target='_blank' href='"+ wiki_data[3][i] + "'>" + wiki_data[1][i] + "</a><h1><p>" + wiki_data[2][i] + "</p></article>");
+	}
 	$("div.search-results").show();
 }
 

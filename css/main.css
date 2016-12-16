@@ -32,6 +32,15 @@ a {
 	color:  #e6d1f1;
 }
 
+article {
+	text-align: left;
+    background: #2d163e;
+    padding: 4px 40px;
+    font-size: 0.7em;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
 .hilt {
     height: 25px;
     margin-top: 33px;
